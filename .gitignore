@@ -1,0 +1,28 @@
+# Veri
+data/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Ortam değişkenleri
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+
+# Model dosyaları (büyükse)
+*.pkl
+*.h5
