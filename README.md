@@ -98,7 +98,7 @@ Among customers who *do* have internet service, churn drops steadily as the numb
 
 After one-hot encoding and removing multicollinear/duplicate columns, the strongest linear relationships with `Churn` were:
 
-![Correlation with churn](images/corr_with_churn.png)
+![Correlation with churn](images/corr_with_churn.webp)
 
 **Interesting detail:** `TotalCharges` is *negatively* correlated with churn (−0.20) even though `MonthlyCharges` is positively correlated (+0.19) — because `TotalCharges` is strongly tied to `tenure` (0.83 correlation), and long-tenured, low-risk customers simply accumulate higher totals over time.
 
