@@ -174,20 +174,7 @@ While building the dashboard, `MonthlyCharges` and `TotalCharges` displayed impo
 - **Power BI Desktop:** Power Query (M), DAX measures, interactive dashboard
 - **Other:** GridSearchCV (hyperparameter tuning), joblib (model persistence)
 
----
 
-## 🚀 Reusing the Model
-
-```python
-import joblib
-
-# Load the trained model
-model = joblib.load('best_rf_model.pkl')
-
-# Predict on new data
-predictions = model.predict(X_new)
-probabilities = model.predict_proba(X_new)[:, 1]  # churn probability
-```
 
 ---
 
